@@ -7,57 +7,52 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    title: "Ecommerce Admin",
+    description:
+      "Admin Dashboard built on Next.js, integrating Stripe, Prisma, MySQL, and stylized with Tailwind CSS. ",
+    image: "/images/projects/ecommerce-admin.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/octav20/e-commerce-admin",
+    previewUrl: "https://e-commerce-admin-octav20.vercel.app/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
+    title: "Ecommerce Store",
+    description: "E-commerce store built with Next.js and Tailwind CSS.",
+    image: "/images/projects/ecommerce-store.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/octav20/e-commerce-store",
+    previewUrl: "https://e-commerce-store-octav20.vercel.app",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
+    title: "Spotify Clone",
+    description:
+      "Spotify clone, built with Next.js, Tailwind, Supabase, and Stripe for an immersive and secure music experience.",
+    image: "/images/projects/spotify-clone.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/octav20/spotify-clone",
+    previewUrl: "https://spotify-clone-octav20.vercel.app/",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Tailverse",
+    description:
+      "Tailverse is your one-stop destination to create and obtain components optimized for Tailwind CSS. ",
+    image: "/images/projects/tailverse.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/octav20/tailverse.tech",
+    previewUrl: "https://tailverse.tech/",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
+    title: "Gestario",
+    description:
+      "Gestario is an inventory manager for recording product entries and exits, built with Next.js",
+    image: "/images/projects/gestario.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/octav20/gestario",
+    previewUrl: "https://gestario.vercel.app",
   },
 ];
 
@@ -84,7 +79,7 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      {/* <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
           name="All"
@@ -100,9 +95,9 @@ const ProjectsSection = () => {
           name="Mobile"
           isSelected={tag === "Mobile"}
         />
-      </div>
+      </div> */}
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
-        {filteredProjects.map((project, index) => (
+        {projectsData.map((project, index) => (
           <motion.li
             key={index}
             variants={cardVariants}
