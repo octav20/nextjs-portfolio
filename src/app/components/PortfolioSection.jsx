@@ -31,7 +31,7 @@ function PortfolioSection() {
             </div>
             <div className="bg-black/25 transition hover:bg-black/60  shadow rounded-lg overflow-hidden">
               <img
-                src="/marco tetris.jpg"
+                src="/marcotetris.jpg"
                 className="object-cover h-40 w-full"
                 alt
               />
@@ -40,7 +40,7 @@ function PortfolioSection() {
                   por Marco Avila
                 </span>
                 <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
-                  <a href="/portafolio/download-game">Tetris</a>
+                  <a href="http://pvdmmaas.lovestoblog.com">Tetris</a>
                 </h3>
               </div>
             </div>
@@ -55,7 +55,7 @@ function PortfolioSection() {
                   por Emmanuel Vargas
                 </span>
                 <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
-                  <a href="/portafolio/download-game">Pong</a>
+                  <a href="http://pvdmjevz.lovestoblog.com/">Pong</a>
                 </h3>
               </div>
             </div>
@@ -66,7 +66,9 @@ function PortfolioSection() {
                   por Jesus Rivera
                 </span>
                 <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
-                  <a href="/portafolio/download-game">Laberinto</a>
+                  <a target="_blank" href="http://pvdmjp.infinityfreeapp.com">
+                    Laberinto
+                  </a>
                 </h3>
               </div>
             </div>
@@ -77,7 +79,7 @@ function PortfolioSection() {
                   por Jael Uriarte
                 </span>
                 <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
-                  <a href="/portafolio/download-game">Flappy Bird</a>
+                  <a href="http://pvdmjjup.lovestoblog.com/">Flappy Bird</a>
                 </h3>
               </div>
             </div>
@@ -92,7 +94,7 @@ function PortfolioSection() {
                   por Nayeli Fing
                 </span>
                 <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
-                  <a href="/portafolio/download-game">BuscaMinas</a>
+                  <a href="http://pvdmnafv.lovestoblog.com/">BuscaMinas</a>
                 </h3>
               </div>
             </div>
@@ -103,7 +105,12 @@ function PortfolioSection() {
                   por Victoria Alvarado
                 </span>
                 <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
-                  <a href="/portafolio/download-game">Piedra Papel o Tijeras</a>
+                  <a
+                    target="_blank"
+                    href="http://pvdmamnv.infinityfreeapp.com/"
+                  >
+                    Piedra Papel o Tijeras
+                  </a>
                 </h3>
               </div>
             </div>
