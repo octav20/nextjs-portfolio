@@ -31,76 +31,79 @@ function PortfolioSection() {
             </div>
             <div className="bg-black/25 transition hover:bg-black/60  shadow rounded-lg overflow-hidden">
               <img
-                src="/arechisnake.png"
+                src="/marco tetris.jpg"
                 className="object-cover h-40 w-full"
                 alt
               />
               <div className="p-6">
                 <span className="block text-red-400 font-semibold text-sm">
-                  por Octavio Guerrero
+                  por Marco Avila
                 </span>
                 <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
-                  <a href="/portafolio/download-game">ArechiSnake</a>
+                  <a href="/portafolio/download-game">Tetris</a>
                 </h3>
               </div>
             </div>
             <div className="bg-black/25 transition hover:bg-black/60  shadow rounded-lg overflow-hidden">
               <img
-                src="/arechisnake.png"
+                src="/emonuel.jpg"
                 className="object-cover h-40 w-full"
                 alt
               />
               <div className="p-6">
                 <span className="block text-red-400 font-semibold text-sm">
-                  por Octavio Guerrero
+                  por Emmanuel Vargas
                 </span>
                 <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
-                  <a href="/portafolio/download-game">ArechiSnake</a>
+                  <a href="/portafolio/download-game">Pong</a>
+                </h3>
+              </div>
+            </div>
+            <div className="bg-black/25 transition hover:bg-black/60  shadow rounded-lg overflow-hidden">
+              <img src="/chuy.jpg" className="object-cover h-40 w-full" alt />
+              <div className="p-6">
+                <span className="block text-red-400 font-semibold text-sm">
+                  por Jesus Rivera
+                </span>
+                <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
+                  <a href="/portafolio/download-game">Laberinto</a>
+                </h3>
+              </div>
+            </div>
+            <div className="bg-black/25 transition hover:bg-black/60  shadow rounded-lg overflow-hidden">
+              <img src="/jael.png" className="object-cover h-40 w-full" alt />
+              <div className="p-6">
+                <span className="block text-red-400 font-semibold text-sm">
+                  por Jael Uriarte
+                </span>
+                <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
+                  <a href="/portafolio/download-game">Flappy Bird</a>
                 </h3>
               </div>
             </div>
             <div className="bg-black/25 transition hover:bg-black/60  shadow rounded-lg overflow-hidden">
               <img
-                src="/arechisnake.png"
+                src="/buscaminas.jpg"
                 className="object-cover h-40 w-full"
                 alt
               />
               <div className="p-6">
                 <span className="block text-red-400 font-semibold text-sm">
-                  por Octavio Guerrero
+                  por Nayeli Fing
                 </span>
                 <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
-                  <a href="/portafolio/download-game">ArechiSnake</a>
+                  <a href="/portafolio/download-game">BuscaMinas</a>
                 </h3>
               </div>
             </div>
             <div className="bg-black/25 transition hover:bg-black/60  shadow rounded-lg overflow-hidden">
-              <img
-                src="/arechisnake.png"
-                className="object-cover h-40 w-full"
-                alt
-              />
+              <img src="/pipi.jpg" className="object-cover h-40 w-full" alt />
               <div className="p-6">
                 <span className="block text-red-400 font-semibold text-sm">
-                  por Octavio Guerrero
+                  por Victoria Alvarado
                 </span>
                 <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
-                  <a href="/portafolio/download-game">ArechiSnake</a>
-                </h3>
-              </div>
-            </div>
-            <div className="bg-black/25 transition hover:bg-black/60  shadow rounded-lg overflow-hidden">
-              <img
-                src="/arechisnake.png"
-                className="object-cover h-40 w-full"
-                alt
-              />
-              <div className="p-6">
-                <span className="block text-red-400 font-semibold text-sm">
-                  por Octavio Guerrero
-                </span>
-                <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
-                  <a href="/portafolio/download-game">ArechiSnake</a>
+                  <a href="/portafolio/download-game">Piedra Papel o Tijeras</a>
                 </h3>
               </div>
             </div>
