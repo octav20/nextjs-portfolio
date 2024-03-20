@@ -79,7 +79,7 @@ function PortfolioSection() {
                   por Jael Uriarte
                 </span>
                 <h3 className="mt-3 font-bold text-lg hover:underline text-white pb-4 border-b border-slate-300">
-                  <a href="http://pvdmjjup.lovestoblog.com/">Flappy Bird</a>
+                  <a href="http://pvdmjjup.infinityfreeapp.com">Flappy Bird</a>
                 </h3>
               </div>
             </div>
