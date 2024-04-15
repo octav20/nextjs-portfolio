@@ -18,7 +18,7 @@ function PortfolioSection() {
               <img
                 src="/arechisnake.png"
                 className="object-cover h-40 w-full"
-                alt
+                alt=""
               />
               <div className="p-6">
                 <span className="block text-red-400 font-semibold text-sm">
@@ -33,7 +33,7 @@ function PortfolioSection() {
               <img
                 src="/marcotetris.jpg"
                 className="object-cover h-40 w-full"
-                alt
+                alt=""
               />
               <div className="p-6">
                 <span className="block text-red-400 font-semibold text-sm">
@@ -48,7 +48,7 @@ function PortfolioSection() {
               <img
                 src="/emonuel.jpg"
                 className="object-cover h-40 w-full"
-                alt
+                alt=""
               />
               <div className="p-6">
                 <span className="block text-red-400 font-semibold text-sm">
@@ -60,7 +60,11 @@ function PortfolioSection() {
               </div>
             </div>
             <div className="bg-black/25 transition hover:bg-black/60  shadow rounded-lg overflow-hidden">
-              <img src="/chuy.jpg" className="object-cover h-40 w-full" alt />
+              <img
+                src="/chuy.jpg"
+                className="object-cover h-40 w-full"
+                alt=""
+              />
               <div className="p-6">
                 <span className="block text-red-400 font-semibold text-sm">
                   por Jesus Rivera
@@ -73,7 +77,11 @@ function PortfolioSection() {
               </div>
             </div>
             <div className="bg-black/25 transition hover:bg-black/60  shadow rounded-lg overflow-hidden">
-              <img src="/jael.png" className="object-cover h-40 w-full" alt />
+              <img
+                src="/jael.png"
+                className="object-cover h-40 w-full"
+                alt=""
+              />
               <div className="p-6">
                 <span className="block text-red-400 font-semibold text-sm">
                   por Jael Uriarte
@@ -87,7 +95,7 @@ function PortfolioSection() {
               <img
                 src="/buscaminas.jpg"
                 className="object-cover h-40 w-full"
-                alt
+                alt=""
               />
               <div className="p-6">
                 <span className="block text-red-400 font-semibold text-sm">
@@ -99,7 +107,11 @@ function PortfolioSection() {
               </div>
             </div>
             <div className="bg-black/25 transition hover:bg-black/60  shadow rounded-lg overflow-hidden">
-              <img src="/pipi.jpg" className="object-cover h-40 w-full" alt />
+              <img
+                src="/pipi.jpg"
+                className="object-cover h-40 w-full"
+                alt=""
+              />
               <div className="p-6">
                 <span className="block text-red-400 font-semibold text-sm">
                   por Victoria Alvarado
