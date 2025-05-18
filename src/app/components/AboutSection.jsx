@@ -15,31 +15,23 @@ const TAB_DATA = [
         <li>MySQL</li>
         <li>Sequelize</li>
         <li>JavaScript/TypeScript</li>
-        <li>Java</li>
-        <li>Spring Boot</li>
         <li>Python</li>
+        <li>Tailwind CSS</li>
+        <li>Angular</li>
+        <li>React</li>
+
       </ul>
     ),
   },
   {
-    title: "Education",
+    title: "Educación",
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Autonomous University of the West, Sinaloa, Mexico</li>
+        <li>Universidad Autonoma de Occidente, Sinaloa, México</li>
       </ul>
     ),
-  },
-  // {
-  //   title: "Certifications",
-  //   id: "certifications",
-  //   content: (
-  //     <ul className="list-disc pl-2">
-  //       <li>AWS Cloud Practitioner</li>
-  //       <li>Google Professional Cloud Developer</li>
-  //     </ul>
-  //   ),
-  // },
+  }
 ];
 
 const AboutSection = () => {
@@ -55,20 +47,13 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-me.png" width={500} height={500} alt="" />
+        <Image src="/images/about-me.webp" width={500} height={500} alt="" />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
-          <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
+          <h2 className="text-4xl font-bold text-white mb-4">Sobre Mi</h2>
           <p className="text-base lg:text-lg">
-            I&apos;m a web development enthusiast who thrives on challenges and
-            creativity. I enjoy designing digital experiences that captivate and
-            excite. Right now, I&apos;m having a blast with Next.js and
-            TypeScript, but I&apos;m always exploring new frameworks to add to
-            my repertoire. From crazy projects to elegant websites, I dive
-            headfirst into anything that involves code. Transforming ideas into
-            something real is my specialty. When you don&apos;t find me typing
-            away, I&apos;m listening to music, devouring movies, or immersed in
-            a good book. Oh, and of course, I&apos;m one of those who never
-            misses a football match. Visca el Barça! ⚽️
+          Soy un apasionado del desarrollo web, motivado por los desafíos y la creatividad. Me encanta diseñar experiencias digitales que cautivan, inspiran y generan impacto. Actualmente, disfruto explorando el potencial de Next.js y TypeScript, aunque siempre estoy en busca de nuevas herramientas y 
+          frameworks para enriquecer mi repertorio.Desde proyectos innovadores hasta sitios web elegantes, me involucro por completo en todo lo que implique escribir código. Convertir ideas en soluciones reales y funcionales es mi mayor fortaleza.Cuando no estoy frente al teclado, probablemente estoy 
+          escuchando música, viendo buenas películas o tocando la guitarra. Y claro, nunca me pierdo un buen partido de fútbol. ¡Visca el Barça! ⚽️
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
@@ -83,7 +68,7 @@ const AboutSection = () => {
               active={tab === "education"}
             >
               {" "}
-              Education{" "}
+              Educación{" "}
             </TabButton>
           </div>
           <div className="mt-8">

@@ -9,50 +9,31 @@ const projectsData = [
     id: 1,
     title: "Ecommerce Admin",
     description:
-      "Admin Dashboard built on Next.js, integrating Stripe, Prisma, MySQL, and stylized with Tailwind CSS. ",
+      "Admin Dashboard hecho sobre Next.js, integrando Stripe, Prisma, MySQL y estilado con Tailwind CSS. ",
     image: "/images/projects/ecommerce-admin.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/octav20/e-commerce-admin",
-    previewUrl: "https://e-commerce-admin-octav20.vercel.app/",
+    previewUrl: "#",
   },
   {
     id: 2,
-    title: "Ecommerce Store",
-    description: "E-commerce store built with Next.js and Tailwind CSS.",
-    image: "/images/projects/ecommerce-store.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/octav20/e-commerce-store",
-    previewUrl: "https://e-commerce-store-octav20.vercel.app",
-  },
-  {
-    id: 3,
     title: "Spotify Clone",
     description:
-      "Spotify clone, built with Next.js, Tailwind, Supabase, and Stripe for an immersive and secure music experience.",
+      "Spotify clone, hecho con Next.js, Tailwind, Supabase, y Stripe.",
     image: "/images/projects/spotify-clone.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/octav20/spotify-clone",
-    previewUrl: "https://spotify-clone-octav20.vercel.app/",
-  },
-  {
-    id: 4,
-    title: "Tailverse",
-    description:
-      "Tailverse is your one-stop destination to create and obtain components optimized for Tailwind CSS. ",
-    image: "/images/projects/tailverse.png",
-    tag: ["All", "Web"],
-    gitUrl: "https://github.com/octav20/tailverse.tech",
-    previewUrl: "https://tailverse.tech/",
+    previewUrl: "#",
   },
   {
     id: 5,
-    title: "Gestario",
+    title: "Provedeco",
     description:
-      "Gestario is an inventory manager for recording product entries and exits, built with Next.js",
-    image: "/images/projects/gestario.png",
+      "Landing page para provedeco, Empresa dedicada a la venta de lambrin, laminas de pvc, y otros productos de acabado.",
+    image: "/images/projects/provedeco.png",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/octav20/gestario",
-    previewUrl: "https://gestario.vercel.app",
+    gitUrl: "https://github.com/octav20/provedeco",
+    previewUrl: "https://provedeco.vercel.app",
   },
 ];
 
@@ -77,7 +58,7 @@ const ProjectsSection = () => {
   return (
     <section id="projects">
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
-        My Projects
+      Mis Proyectos
       </h2>
       {/* <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
         <ProjectTag

@@ -7,8 +7,11 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Portfolio Octavio Guerrero',
-  description: 'Portfolio Octavio Guerrero',
+  title: 'Portafolio Octavio Guerrero',
+  description: 'Portafolio Octavio Guerrero',
+  icons: {
+    icon: '/favicon.webp',
+  },
 
 };
 export default function RootLayout({ children }) {

@@ -17,16 +17,16 @@ const HeroSection = () => {
         >
           <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-8xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r  from-red-300 to-red-600">
-              Hello, I&apos;m{" "}
+              Hola, soy
             </span>
             <br></br>
             <TypeAnimation
               sequence={[
                 "Octavio",
                 1000,
-                "Web Developer",
+                "Desarrollador Web",
                 1000,
-                "Software Engineer",
+                "Ingeniero de Software",
                 1000,
                 "Freelancer",
                 1000,
@@ -37,23 +37,23 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            &quot;It&apos;s not magic, it&apos;s programming.&quot;
+            &quot;No es magia, es programación.&quot;
           </p>
           <div>
             <Link
               href="/#contact"
               className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br  from-red-400 to-red-600 hover:via-red-950 text-white"
             >
-              Hire Me
+              Contáctame
             </Link>
-            <Link
+         {/*    <Link
               href="/"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br  from-red-300 to-red-600 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
-            </Link>
+            </Link> */}
           </div>
         </motion.div>
         <motion.div

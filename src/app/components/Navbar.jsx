@@ -8,15 +8,15 @@ import { Noto_Sans } from "next/font/google";
 
 const navLinks = [
   {
-    title: "About",
+    title: "Acerca de mi",
     path: "#about",
   },
   {
-    title: "Projects",
+    title: "Proyectos",
     path: "#projects",
   },
   {
-    title: "Contact",
+    title: "Contáctame",
     path: "#contact",
   },
 ];
