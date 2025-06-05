@@ -26,7 +26,7 @@ const projectsData = [
     previewUrl: "#",
   },
   {
-    id: 5,
+    id: 3,
     title: "Provedeco",
     description:
       "Landing page para provedeco, Empresa dedicada a la venta de lambrin, laminas de pvc, y otros productos de acabado.",
@@ -35,6 +35,16 @@ const projectsData = [
     gitUrl: "https://github.com/octav20/provedeco",
     previewUrl: "https://provedeco.vercel.app",
   },
+  {
+    id: 4,
+    title: 'Statify',
+    description:
+    'Statify es una app web para visualizar tus estadísticas de Spotify, hecha con Astro y Tailwind CSS.',
+    image: '/images/projects/statify.png',
+    tag: ['All', 'Web'],
+    gitUrl:'https://github.com/octav20/statify_v2',
+    previewUrl: 'https://statify-v2.vercel.app/',
+  }
 ];
 
 const ProjectsSection = () => {
